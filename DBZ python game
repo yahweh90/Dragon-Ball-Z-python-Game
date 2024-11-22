@@ -1,0 +1,79 @@
+print(r'''
+  __
+  |  ""--.--.._                                             __..    ,--.
+  |       `.   "-.'""\_...-----..._   ,--. .--..-----.._.""|   |   /   /
+  |_   _    \__   ).  \           _/_ |   \|  ||  ..    >  `.  |  /   /
+    | | `.   ._)  /|\  \ .-"""":-"   "-.   `  ||  |.'  ,'`. |  |_/_  /
+    | |_.'   |   / ""`  \  ===/  ..|..  \     ||      < ""  `.  "  |/__
+    `.      .    \ ,--   \-..-\   /"\   /     ||  |>   )--   |    /    |
+     |__..-'__||__\   |___\ __.:-.._..-'_|\___||____..-/  |__|--""____/
+                           _______________________
+                          /                      ,'
+                         /      ___            ,'
+                        /   _.-'  ,'        ,-'   /
+                       / ,-' ,--.'        ,'   .'/
+                      /.'     `.         '.  ,' /
+                     /      ,-'       ,"--','  /
+                          ,'        ,'  ,'    /
+                         ,-'      ,' .-'     /
+                      ,-'                   /
+                    ,:________________Seal_/
+
+
+
+                   `\-.   `
+                      \ `.  `
+                       \  \ |
+              __.._    |   \.       S O N - G O K U
+       ..---~~     ~ . |    Y
+         ~-.          `|    |
+            `.               `~~--.
+              \                    ~.
+               \                     \__. . -- -  .
+         .-~~~~~      ,    ,            ~~~~~~---...._
+      .-~___        ,'/  ,'/ ,'\          __...---~~~
+            ~-.    /._\_( ,(/_. 7,-.    ~~---...__
+           _...>-  P""6=`_/"6"~   6)    ___...--~~~
+            ~~--._ \`--') `---'   9'  _..--~~~
+                  ~\ ~~/_  ~~~   /`-.--~~
+                    `.  ---    .'   \_
+                      `. " _.-'     | ~-.,-------._
+                  ..._../~~   ./       .-'    .-~~~-.
+            ,--~~~ ,'...\` _./.----~~.'/    /'       `-
+        _.-(      |\    `/~ _____..-' /    /      _.-~~`.
+       /   |     /. ^---~~~~       ' /    /     ,'  ~.   \
+      (    /    (  .           _ ' /'    /    ,/      \   )
+      (`. |     `\   - - - - ~   /'      (   /         .  |
+       \.\|       \            /'        \  |`.           /
+       /.'\\      `\         /'           ~-\         .  /\
+      /,   (        `\     /'                `.___..-      \
+     | |    \         `\_/'                  //      \.     |
+     | |     |                 _Seal_      /' |       |     |
+''')
+print("Welcome to Dragon Ball Z.")
+print("Your mission is to find the Dragon Balls.")
+choice1 = input('You\'re at a crossroads, of earth and planet vegeta, '
+                'where do you want to go? Type "earth" or "planet vegeta"."')
+
+if choice1 == "planet vegeta":
+   choice2  = input('You\'ve approached Vegeta. '
+                   'He wants to battle you to see who is the strongest saiyan. '
+                   'Type "fight" to fight vegeta. type "fly" to fly away from vegeta."')
+   if choice2 == "fight":
+       choice3 = input("You arrived at Planet Vegeta winning your battle as a Super Saiyan. "
+                     "There is a mountain with three portals. One is black, "
+                     "and one is green, and one is yellow. Which portal do you choose?")
+       if choice3 == "black":
+        print("jiren kills you. Game Over")
+       elif choice3 == "yellow":
+        print("You found all 7 Dragon Balls. You Win!")
+       elif choice3 == "green":
+        print("Broly kills kakarot. Game Over")
+       else:
+        print("You got attacked by Majin Vegeta. Game Over.")
+
+   else:
+    print("Vegeta has defeated you and Kakarot/Goku died a cowards death. Game Over.")
+
+else:
+    print("Broly has killed Kakarot. Game Over.")
